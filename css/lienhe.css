@@ -1,0 +1,34 @@
+.lienhe{
+    width: 1200px;
+}
+.lienhe-top{
+    width: 1200px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.lienhe-top .fa{
+    color:#0065c3 ;
+    font-size: 50px;
+    transition: .5s;
+
+}
+.lienhe-top .fa:hover{
+    transform: rotate(360deg);
+    transition: .5s;
+}
+.lienhe-top a{
+    text-decoration: none;
+    color: black;
+}
+.lienhe-top a:hover{
+    color:#0065c3 ;
+
+}
+.lienhe h1{
+    font-family: Anton ;
+    font-size: 26px;
+}

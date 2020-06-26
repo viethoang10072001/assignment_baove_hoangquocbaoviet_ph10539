@@ -1,0 +1,77 @@
+.all-chitietsp h1{
+    color: #0065c3;
+    font-family: Anton;
+    text-align: center;
+    border-bottom: 4px solid #0065c3;
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+.chitietsp{
+    width: 1090px;
+    height: 530px;
+    display: grid;
+    grid-template-columns: 250px 400px 400px ;
+    grid-gap: 30px;
+    margin: 0 auto;
+}
+.list-sp{
+    border-radius: 5px;
+    height: 530px;
+    border: 1px solid #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.list-sp img{
+    width: 100px;
+    cursor: pointer;
+}
+.list-sp li{
+    margin-left: -40px;
+    list-style: none;
+}
+.main-sp{
+    border: 1px solid #f5f5f5;
+    border-radius: 5px;
+    height: 530px;
+}
+.tt-sp{
+    border: 1px solid #f5f5f5;
+    border-radius: 5px;
+    height: 530px;
+    padding: 1px 10px;
+    background-color: #0065c3;
+    color: white;
+}
+.tt-sp ul{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.tt-sp li{
+    padding: 10px 0 ;
+    list-style: none;
+    margin-left: -35px;
+    border-bottom: 1px solid white;
+}
+.thongtin{
+    width: 1200px;
+}
+.lichsu{
+    margin-top: 90px;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 400px 800px;
+ 
+}
+.thanhtichpepssi{
+    margin-top: 90px;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 800px 400px; 
+}

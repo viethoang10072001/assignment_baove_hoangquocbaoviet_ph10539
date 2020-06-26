@@ -1,0 +1,59 @@
+.shopping{
+    margin-bottom: 50px;
+    height: 700px;
+}
+.tt-shopping{
+    padding-bottom: 20px;
+    border-bottom: 2px solid #0065c3;
+    margin-bottom: 30px;
+}
+.main-shopping{
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-gap: 50px;
+}
+.img-con{
+    margin-top: 15px;
+}
+.img-con img{
+    cursor: pointer;
+}
+.gh1{
+    padding: 5px;
+    border: 1px solid  rgba(0, 0, 0, 0.125);
+
+}
+.box1{
+    margin-top: 20px;
+    border: 1px dotted #0065c3;
+    width: 255px;
+    margin-bottom: 20px;
+}
+.box1 li{
+    list-style: none;
+    padding: 6px 0 ;
+}
+.box1 li a{
+    text-decoration: none;
+    color: black;
+}
+.rohang{
+    height: 35px;
+    background-color: #0065c3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.mua{
+    height: 35px;
+    background-color: #CC0033;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 102px;
+    cursor: pointer;
+}
